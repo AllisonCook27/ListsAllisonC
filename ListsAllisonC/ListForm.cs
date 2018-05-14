@@ -19,9 +19,36 @@ namespace ListsAllisonC
 {
     public partial class frmList : Form
     {
+
+        //global list
+        List<int> listOfMarks = new List<int>();
+
         public frmList()
         {
             InitializeComponent();
+        }
+
+        private int Calculate(ref List<int> listOfMarks)
+        {
+            //local variable
+            int counter, currentMark, tmpaverage = 0;
+
+            if (listOfMarks.Count() > 0)
+            {
+                for (counter = 0; counter < listOfMarks.Count(); counter++)
+                {
+                    //getting the mark
+                   currentMark = listOfMarks[counter];
+
+                    //add it to the average
+                    tmpaverage = tmpaverage + currentMark;
+                }
+
+                //devid the average by the amunt of items in the list
+                tmpaverage = tmpaverage / listOfMarks.Count();
+            }
+
+            return tmpaverage;
         }
 
         private void btnEnter_Click(object sender, EventArgs e)
@@ -48,12 +75,25 @@ namespace ListsAllisonC
                 this.lstMarks.Items.Add(userMark);
 
                 //add it to the list
+                listOfMarks.Add(userMark);
+            }
+            else
+            {
+                //display the message box
+                MessageBox.Show("Please enter a number between 0 and 100", "List Average");
             }
         }
 
         private void btnAverage_Click(object sender, EventArgs e)
         {
+            //local variable
+            int average;
 
+            //calling the calculate and passing the list of marks
+            average = Calculate(ref listOfMarks);
+
+            //change the label to display the average
+            lblAverage.Text = "The average is " + average;
         }
     }
 }

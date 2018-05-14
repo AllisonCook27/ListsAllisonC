@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\bin\Debug\ListsAllisonC.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\bin\Debug\ListsAllisonC.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\bin\Debug\ListsAllisonC.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\obj\Debug\ListsAllisonC.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\obj\Debug\ListsAllisonC.frmList.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\obj\Debug\ListsAllisonC.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\obj\Debug\ListsAllisonC.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\obj\Debug\ListsAllisonC.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 5 (Arrays & Lists)\ListsAllisonC\ListsAllisonC\obj\Debug\ListsAllisonC.pdb
