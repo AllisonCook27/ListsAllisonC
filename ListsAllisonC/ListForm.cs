@@ -31,7 +31,7 @@ namespace ListsAllisonC
         private int Calculate(ref List<int> listOfMarks)
         {
             //local variable
-            int counter, currentMark, tmpaverage = 0;
+            int counter, currentMark, tmpaverage = 0, sum = 0;
 
             if (listOfMarks.Count() > 0)
             {
@@ -40,12 +40,12 @@ namespace ListsAllisonC
                     //getting the mark
                    currentMark = listOfMarks[counter];
 
-                    //add it to the average
-                    tmpaverage = tmpaverage + currentMark;
+                    //add it to the sum
+                    sum = sum + currentMark;
                 }
 
-                //devid the average by the amunt of items in the list
-                tmpaverage = tmpaverage / listOfMarks.Count();
+                //get the average by the amunt of items in the list
+                tmpaverage = sum / listOfMarks.Count();
             }
 
             return tmpaverage;
